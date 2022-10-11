@@ -3,7 +3,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [1.6.0] 2022-10-11
+### Changed
+* Took over maintenance of this package and added to Packagist to allow for easier installation.
+* Updated namespaces from `Sixlive\TextCopy` to `Waynestate\Nova\TextCopy`.
+* Lock Nova to < 3.* for v2.0 to have Nova 4 support.
+
+### Fixed
+* Fix issue with truncating would apply the ellipsis even if the value was not truncated.
+
+### Added
 * Added readonly field support ([#29](https://github.com/sixlive/nova-text-copy-field/pull/29))
 
 ## [1.5.0] 2019-03-03
