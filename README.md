@@ -1,12 +1,11 @@
 # Nova Text Copy Field
 
-[![Packagist Version](https://img.shields.io/packagist/v/sixlive/nova-text-copy-field.svg?style=flat-square)](https://packagist.org/packages/sixlive/nova-text-copy-field)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/sixlive/nova-text-copy-field.svg?style=flat-square)](https://packagist.org/packages/sixlive/nova-text-copy-field)
-[![StyleCI](https://github.styleci.io/repos/152124692/shield)](https://github.styleci.io/repos/152124692)
+[![Packagist Version](https://img.shields.io/packagist/v/waynestate/nova-text-copy-field.svg?style=flat-square)](https://packagist.org/packages/waynestate/nova-text-copy-field)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/waynestate/nova-text-copy-field.svg?style=flat-square)](https://packagist.org/packages/waynestate/nova-text-copy-field)
 
 A Laravel Nova text field with click to copy support. This field behaves just like a text field but adds the ability to copy the field value to your clipboard with just a click.
 
-This package can also be found on [Nova Packages](https://novapackages.com/packages/sixlive/nova-text-copy-field).
+This package can also be found on [Nova Packages](https://novapackages.com/packages/waynestate/nova-text-copy-field).
 
 ![animated screenshot](.docs/animated.gif)
 
