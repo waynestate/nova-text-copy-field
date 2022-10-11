@@ -1,6 +1,6 @@
 <?php
 
-namespace Sixlive\TextCopy;
+namespace Waynestate\TextCopy;
 
 use Closure;
 use Laravel\Nova\Fields\Field;
@@ -22,7 +22,7 @@ class TextCopy extends Field
      * Truncate the fields displayed value.
      *
      * @param  int $length
-     * @return \Sixlive\TextCopy\TextCopy
+     * @return \Waynestate\TextCopy\TextCopy
      */
     public function truncate($length = 0)
     {
@@ -35,7 +35,7 @@ class TextCopy extends Field
      * Apply a mask to the display.
      *
      * @param  string $mask
-     * @return \Sixlive\TextCopy\TextCopy
+     * @return \Waynestate\TextCopy\TextCopy
      */
     public function mask($character = '*')
     {
@@ -51,7 +51,7 @@ class TextCopy extends Field
      * Set the copy button's title attribute.
      *
      * @param  string  $title
-     * @return \Sixlive\TextCopy\TextCopy
+     * @return \Waynestate\TextCopy\TextCopy
      */
     public function copyButtonTitle($title = '')
     {
@@ -66,7 +66,7 @@ class TextCopy extends Field
      * Mutate the value that will be copied.
      *
      * @param  string|int|Closure $value
-     * @return \Sixlive\TextCopy\TextCopy
+     * @return \Waynestate\TextCopy\TextCopy
      */
     public function copyValue($value)
     {
@@ -82,7 +82,7 @@ class TextCopy extends Field
     /**
      * Hide the copy button until a user hovers over the field value.
      *
-     * @return \Sixlive\TextCopy\TextCopy
+     * @return \Waynestate\TextCopy\TextCopy
      */
     public function showButtonOnlyOnHover()
     {

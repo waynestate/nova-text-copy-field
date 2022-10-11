@@ -13,14 +13,14 @@ This package can also be found on [Nova Packages](https://novapackages.com/packa
 ## Installation
 
 ```bash
-> composer require sixlive/nova-text-copy-field
+> composer require waynestate/nova-text-copy-field
 ```
 
 ## Usage
 Add the field to a resource.
 
 ```php
-use Sixlive\TextCopy\TextCopy;
+use Waynestate\TextCopy\TextCopy;
 
 public function fields(Request $request)
 {
@@ -112,6 +112,7 @@ StyleCI will apply the [Laravel preset](https://docs.styleci.io/presets#laravel)
 If you discover any security related issues, please email oss@tjmiller.co instead of using the issue tracker.
 
 ## Credits
+- [Wayne State University](https://github/waynestate)
 - [TJ Miller](https://github.com/sixlive)
 - [All Contributors](../../contributors)
 

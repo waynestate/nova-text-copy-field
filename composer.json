@@ -1,12 +1,17 @@
 {
-    "name": "sixlive/nova-text-copy-field",
+    "name": "waynestate/nova-text-copy-field",
     "description": "Laravel Nova text field with click to copy support",
-    "homepage": "https://github.com/sixlive/nova-text-copy-field",
+    "homepage": "https://github.com/waynestate/nova-text-copy-field",
     "keywords": [
         "laravel",
         "nova"
     ],
     "authors": [
+        {
+            "name": "Wayne State University",
+            "email": "web@wayne.edu",
+            "homepage": "https://wayne.edu"
+        },
         {
             "name": "TJ Miller",
             "email": "oss@tjmiller.co",
@@ -21,13 +26,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Sixlive\\TextCopy\\": "src/"
+            "Waynestate\\TextCopy\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Sixlive\\TextCopy\\FieldServiceProvider"
+                "Waynestate\\TextCopy\\FieldServiceProvider"
             ]
         }
     },

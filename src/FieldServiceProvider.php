@@ -1,6 +1,6 @@
 <?php
 
-namespace Sixlive\TextCopy;
+namespace Waynestate\TextCopy;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
