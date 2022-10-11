@@ -26,13 +26,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Waynestate\\TextCopy\\": "src/"
+            "Waynestate\\Nova\\TextCopy\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Waynestate\\TextCopy\\FieldServiceProvider"
+                "Waynestate\\Nova\\TextCopy\\FieldServiceProvider"
             ]
         }
     },

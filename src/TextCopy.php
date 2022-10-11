@@ -1,6 +1,6 @@
 <?php
 
-namespace Waynestate\TextCopy;
+namespace Waynestate\Nova\TextCopy;
 
 use Closure;
 use Laravel\Nova\Fields\Field;
