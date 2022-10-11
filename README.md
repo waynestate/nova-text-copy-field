@@ -104,11 +104,8 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 ## Contributing
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-## Code Style
-StyleCI will apply the [Laravel preset](https://docs.styleci.io/presets#laravel).
-
 ## Security
-If you discover any security related issues, please email oss@tjmiller.co instead of using the issue tracker.
+If you discover any security related issues, please email web@wayne.edu instead of using the issue tracker.
 
 ## Credits
 - [Wayne State University](https://github/waynestate)
