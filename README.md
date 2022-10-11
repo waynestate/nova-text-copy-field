@@ -1,7 +1,6 @@
 # Nova Text Copy Field
 
-[![Packagist Version](https://img.shields.io/packagist/v/waynestate/nova-text-copy-field.svg?style=flat-square)](https://packagist.org/packages/waynestate/nova-text-copy-field)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/waynestate/nova-text-copy-field.svg?style=flat-square)](https://packagist.org/packages/waynestate/nova-text-copy-field)
+[![Latest Stable Version](http://poser.pugx.org/waynestate/nova-text-copy-field/v)](https://packagist.org/packages/waynestate/nova-text-copy-field) [![Total Downloads](http://poser.pugx.org/waynestate/nova-text-copy-field/downloads)](https://packagist.org/packages/waynestate/nova-text-copy-field) [![License](http://poser.pugx.org/waynestate/nova-text-copy-field/license)](https://packagist.org/packages/waynestate/nova-text-copy-field) [![PHP Version Require](http://poser.pugx.org/waynestate/nova-text-copy-field/require/php)](https://packagist.org/packages/waynestate/nova-text-copy-field)
 
 A Laravel Nova text field with click to copy support. This field behaves just like a text field but adds the ability to copy the field value to your clipboard with just a click.
 
