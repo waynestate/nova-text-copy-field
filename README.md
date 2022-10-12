@@ -18,7 +18,7 @@ This package can also be found on [Nova Packages](https://novapackages.com/packa
 Add the field to a resource.
 
 ```php
-use Waynestate\TextCopy\TextCopy;
+use Waynestate\Nova\TextCopy\TextCopy;
 
 public function fields(Request $request)
 {
