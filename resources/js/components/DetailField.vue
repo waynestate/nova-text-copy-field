@@ -1,13 +1,15 @@
 <template>
-    <panel-item :field="field">
-        <div slot="value" class="flex" @mouseover="hover = true" @mouseleave="hover = false">
-            <div class="flex-no-shrink">{{ fieldDisplayValue }}</div>
-            <copy-button
-                :value="copyFieldValue"
-                :title="copyButtonTitleValue"
-                :class="['w-4 mx-3', {'invisible': ! shouldShowButton}]" />
-        </div>
-    </panel-item>
+    <PanelItem :index="index" :field="field">
+        <template #value>
+            <div class="flex" @mouseover="hover = true" @mouseleave="hover = false">
+                <div class="flex-no-shrink">{{ fieldDisplayValue }}</div>
+                <copy-button
+                    :value="copyFieldValue"
+                    :title="copyButtonTitleValue"
+                    :class="['w-4 mx-3', {'invisible': ! shouldShowButton}]" />
+            </div>
+        </template>
+    </PanelItem>
 </template>
 
 <script>
@@ -15,9 +17,9 @@ import CopyButton from './CopyButton'
 import { filterField, copyButtonTitle, copyValue } from '../utilities'
 
 export default {
-    props: ['resource', 'resourceName', 'resourceId', 'field'],
+    props: ['index', 'resource', 'resourceName', 'resourceId', 'field'],
     components: {
-       CopyButton
+       CopyButton,
     },
     data() {
         return {

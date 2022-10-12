@@ -1,5 +1,9 @@
-Nova.booting((Vue, router) => {
-    Vue.component('index-text-copy', require('./components/IndexField'));
-    Vue.component('detail-text-copy', require('./components/DetailField'));
-    Vue.component('form-text-copy', require('./components/FormField'));
+import IndexField from './components/IndexField'
+import DetailField from './components/DetailField'
+import FormField from './components/FormField'
+
+Nova.booting((app, store) => {
+    app.component('index-text-copy', IndexField)
+    app.component('detail-text-copy', DetailField)
+    app.component('form-text-copy', FormField)
 })
