@@ -1,8 +1,8 @@
 <template>
-    <default-field :field="field" :errors="errors">
-        <template slot="field">
+    <DefaultField :field="field" :errors="errors" :show-help-text="showHelpText">
+        <template #field>
             <div class="flex content-center items-center">
-                <input :id="field.name" type="text"
+                <input :id="field.attribute" type="text"
                     class="flex-1 form-input form-input-bordered form-control"
                     :class="errorClasses"
                     :placeholder="field.name"
@@ -16,7 +16,7 @@
               />
             </div>
         </template>
-    </default-field>
+    </DefaultField>
 </template>
 
 <script>
