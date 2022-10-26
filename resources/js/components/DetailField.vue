@@ -6,7 +6,7 @@
                 <copy-button
                     :value="copyFieldValue"
                     :title="copyButtonTitleValue"
-                    :class="['w-4 mx-3', {'invisible': ! shouldShowButton}]" />
+                    :class="['w-4 ml-3 mr-3', {'invisible': ! shouldShowButton}]" />
             </div>
         </template>
     </PanelItem>
