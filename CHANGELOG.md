@@ -3,9 +3,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [2.0.2] - 2022-10-26
+### Fixed
+* Update classes for Tailwind to be V3 compatible
+
+## [2.0.1] - 2022-10-16
+### Fixed
+* Fix issue with DetailView not displaying the field correctly ([4ac8f1b](https://github.com/waynestate/nova-text-copy-field/commit/4ac8f1bb511ab4df8e8dd561f1803b98cd35c924))
+
+## [2.0.0] - 2022-10-12
 ### Changed
+* Nova 4 update by @chrispelzer in ([#3](https://github.com/waynestate/nova-text-copy-field/pull/3))
 * Updated packagist badges
+* Removed yarn.lock since this is a package and not an application
 
 ## [1.6.0] 2022-10-11
 ### Changed

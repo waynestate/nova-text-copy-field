@@ -11,8 +11,8 @@
                 />
                 <copy-button
                     :value="copyFieldValue"
-                   :title="copyButtonTitleValue"
-                   class="w-4 mx-3"
+                    :title="copyButtonTitleValue"
+                    class="w-4 ml-3 mr-3"
               />
             </div>
         </template>
