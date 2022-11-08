@@ -2,8 +2,9 @@
     <PanelItem :index="index" :field="field">
         <template #value>
             <div class="flex" @mouseover="hover = true" @mouseleave="hover = false">
-                <div class="flex-no-shrink">{{ fieldDisplayValue }}</div>
+                <div class="flex-no-shrink">{{ fieldDisplayValue ?? '—' }}</div>
                 <copy-button
+                    v-show="copyFieldValue"
                     :value="copyFieldValue"
                     :title="copyButtonTitleValue"
                     :class="['w-4 ml-3 mr-3', {'invisible': ! shouldShowButton}]" />
