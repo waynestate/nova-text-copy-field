@@ -1,5 +1,5 @@
 <template>
-    <div class="flex content-center">
+    <div class="flex content-center" v-show="value">
         <div v-show="isNotDirty">
             <clipboard
                 @success="handleSuccess"
