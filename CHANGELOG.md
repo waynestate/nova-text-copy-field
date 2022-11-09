@@ -3,7 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [2.0.3] - 2022-11-09
+## [2.0.4] - 2022-11-09
+### Fixed
+* Same as https://github.com/waynestate/nova-text-copy-field/pull/7 but don't display the TextCopy button to the right of the form field by @chrispelzer https://github.com/waynestate/nova-text-copy-field/pull/9
+
+## [2.0.3] - 2022-11-08
 ### Fixed
 * Don't display TextCopy button when the value is null, show — (em dash) instead by @chrispelzer in https://github.com/waynestate/nova-text-copy-field/pull/7
 
