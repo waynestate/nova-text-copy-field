@@ -16,8 +16,8 @@ class FieldServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::script('text-copy', __DIR__.'/../dist/js/field.js');
-            Nova::style('text-copy', __DIR__.'/../dist/css/field.css');
+            Nova::script('text-copy-v-2-0-5', __DIR__.'/../dist/js/field.js');
+            Nova::style('text-copy-v-2-0-5', __DIR__.'/../dist/css/field.css');
         });
     }
 

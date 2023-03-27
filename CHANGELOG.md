@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.0.5] - 2023-03-27
+### Fixed
+* Fixed possible caching issue for users who already loaded a previous nova-ckeditor4-field version, causing their cached script not being updated when the package is updated.
+
 ## [2.0.4] - 2022-11-09
 ### Fixed
 * Same as https://github.com/waynestate/nova-text-copy-field/pull/7 but don't display the TextCopy button to the right of the form field by @chrispelzer https://github.com/waynestate/nova-text-copy-field/pull/9
