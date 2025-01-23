@@ -2,13 +2,15 @@
 
 [![Latest Stable Version](http://poser.pugx.org/waynestate/nova-text-copy-field/v)](https://packagist.org/packages/waynestate/nova-text-copy-field) [![Total Downloads](http://poser.pugx.org/waynestate/nova-text-copy-field/downloads)](https://packagist.org/packages/waynestate/nova-text-copy-field) [![License](http://poser.pugx.org/waynestate/nova-text-copy-field/license)](https://packagist.org/packages/waynestate/nova-text-copy-field) [![PHP Version Require](http://poser.pugx.org/waynestate/nova-text-copy-field/require/php)](https://packagist.org/packages/waynestate/nova-text-copy-field)
 
-A Laravel Nova text field with click to copy support. This field behaves just like a text field but adds the ability to copy the field value to your clipboard with just a click.
+A Laravel Nova v5 text field with click to copy support. This field behaves just like a text field but adds the ability to copy the field value to your clipboard with just a click.
 
 This package can also be found on [Nova Packages](https://novapackages.com/packages/waynestate/nova-text-copy-field).
 
 ![animated screenshot](.docs/animated.gif)
 
 ## Installation
+
+[Nova v4 compatibility instructions](https://github.com/waynestate/nova-text-copy-field#nova-v4-compatibility)
 
 ```bash
 > composer require waynestate/nova-text-copy-field
@@ -96,6 +98,13 @@ When there is an error adding the field value to the user's clipboard.
 
 ### Masked Display Value
 ![masked display](.docs/masked-screenshot.png)
+
+## Nova v4 compatibility
+If you require the use of `nova-text-copy-field` using Nova v4 you can install using version [v2.0.5](https://github.com/waynestate/nova-text-copy-field/releases/tag/v2.0.5)
+
+```bash
+composer require waynestate/nova-text-copy-field:"^2.0.5"
+```
 
 ## Changelog
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
