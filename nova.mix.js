@@ -13,8 +13,7 @@ class NovaExtension {
 
   webpackPlugins() {
     return new webpack.ProvidePlugin({
-      _: 'lodash',
-      Errors: 'form-backend-validation',
+      _: 'lodash'
     })
   }
 

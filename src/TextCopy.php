@@ -21,10 +21,10 @@ class TextCopy extends Field
     /**
      * Truncate the fields displayed value.
      *
-     * @param  int $length
-     * @return \Waynestate\TextCopy\TextCopy
+     * @param int $length
+     * @return TextCopy
      */
-    public function truncate($length = 0)
+    public function truncate(int $length = 0): static
     {
         $this->withMeta(['truncate' => $length]);
 
@@ -34,10 +34,10 @@ class TextCopy extends Field
     /**
      * Apply a mask to the display.
      *
-     * @param  string $mask
-     * @return \Waynestate\TextCopy\TextCopy
+     * @param string $character
+     * @return TextCopy
      */
-    public function mask($character = '*')
+    public function mask(string $character = '*'): static
     {
         $this->withMeta([
             'masked' => true,
@@ -50,10 +50,10 @@ class TextCopy extends Field
     /**
      * Set the copy button's title attribute.
      *
-     * @param  string  $title
-     * @return \Waynestate\TextCopy\TextCopy
+     * @param string $title
+     * @return TextCopy
      */
-    public function copyButtonTitle($title = '')
+    public function copyButtonTitle(string $title = ''): static
     {
         $this->withMeta([
             'copy_button_title' => $title,
@@ -65,10 +65,10 @@ class TextCopy extends Field
     /**
      * Mutate the value that will be copied.
      *
-     * @param  string|int|Closure $value
-     * @return \Waynestate\TextCopy\TextCopy
+     * @param int|string|Closure $value
+     * @return TextCopy
      */
-    public function copyValue($value)
+    public function copyValue(int|string|Closure $value): static
     {
         $this->withMeta([
             'copy_value' => $value instanceof Closure
@@ -82,9 +82,9 @@ class TextCopy extends Field
     /**
      * Hide the copy button until a user hovers over the field value.
      *
-     * @return \Waynestate\TextCopy\TextCopy
+     * @return TextCopy
      */
-    public function showButtonOnlyOnHover()
+    public function showButtonOnlyOnHover(): static
     {
         $this->withMeta([
             'show_button_on_hover' => true,
